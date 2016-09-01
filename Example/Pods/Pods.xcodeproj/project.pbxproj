@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01DFC861363C91E8C67317C578E6882F /* ATLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D6DE0B199BE389D7E9CB1253C034FF /* ATLibrary-dummy.m */; };
+		7D04E939C72EA9190F19E3A2F306E498 /* Pods-ATLibrary_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0149E436389991E59C36051947DCA5 /* Pods-ATLibrary_Tests-dummy.m */; };
+		955ECE27D11C69F14C23990078B08ABC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		A3CB88611D7822F600D767D3 /* ATColorLog.h in Headers */ = {isa = PBXBuildFile; fileRef = A3CB884C1D7822F600D767D3 /* ATColorLog.h */; };
+		A3CB88621D7822F600D767D3 /* ATDeviceUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = A3CB884D1D7822F600D767D3 /* ATDeviceUtil.h */; };
+		A3CB88631D7822F600D767D3 /* ATDeviceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CB884E1D7822F600D767D3 /* ATDeviceUtil.m */; };
+		A3CB88641D7822F600D767D3 /* ATHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = A3CB884F1D7822F600D767D3 /* ATHeader.h */; };
+		A3CB88651D7822F600D767D3 /* NSData+AES.h in Headers */ = {isa = PBXBuildFile; fileRef = A3CB88511D7822F600D767D3 /* NSData+AES.h */; };
+		A3CB88661D7822F600D767D3 /* NSData+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CB88521D7822F600D767D3 /* NSData+AES.m */; };
+		A3CB88671D7822F600D767D3 /* NSString+AES.h in Headers */ = {isa = PBXBuildFile; fileRef = A3CB88531D7822F600D767D3 /* NSString+AES.h */; };
+		A3CB88681D7822F600D767D3 /* NSString+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CB88541D7822F600D767D3 /* NSString+AES.m */; };
+		A3CB88691D7822F600D767D3 /* NSString+AT.h in Headers */ = {isa = PBXBuildFile; fileRef = A3CB88551D7822F600D767D3 /* NSString+AT.h */; };
+		A3CB886A1D7822F600D767D3 /* NSString+AT.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CB88561D7822F600D767D3 /* NSString+AT.m */; };
+		A3CB886B1D7822F600D767D3 /* UIImage+AT.h in Headers */ = {isa = PBXBuildFile; fileRef = A3CB88571D7822F600D767D3 /* UIImage+AT.h */; };
+		A3CB886C1D7822F600D767D3 /* UIImage+AT.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CB88581D7822F600D767D3 /* UIImage+AT.m */; };
+		A3CB886D1D7822F600D767D3 /* UIImageView+AT.h in Headers */ = {isa = PBXBuildFile; fileRef = A3CB88591D7822F600D767D3 /* UIImageView+AT.h */; };
+		A3CB886E1D7822F600D767D3 /* UIImageView+AT.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CB885A1D7822F600D767D3 /* UIImageView+AT.m */; };
+		A3CB886F1D7822F600D767D3 /* UITextField+AT.h in Headers */ = {isa = PBXBuildFile; fileRef = A3CB885B1D7822F600D767D3 /* UITextField+AT.h */; };
+		A3CB88701D7822F600D767D3 /* UITextField+AT.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CB885C1D7822F600D767D3 /* UITextField+AT.m */; };
+		A3CB88711D7822F600D767D3 /* UIView+AT.h in Headers */ = {isa = PBXBuildFile; fileRef = A3CB885D1D7822F600D767D3 /* UIView+AT.h */; };
+		A3CB88721D7822F600D767D3 /* UIView+AT.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CB885E1D7822F600D767D3 /* UIView+AT.m */; };
+		A3CB88731D7822F600D767D3 /* UIViewController+AT.h in Headers */ = {isa = PBXBuildFile; fileRef = A3CB885F1D7822F600D767D3 /* UIViewController+AT.h */; };
+		A3CB88741D7822F600D767D3 /* UIViewController+AT.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CB88601D7822F600D767D3 /* UIViewController+AT.m */; };
+		BA6443B722D2C9518CD96A5D58FD0EEE /* ATLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8666701F8AFBB2C182E3B919EBCA2A1E /* ATLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB8ADED0A10CFE4DAAE77BBF38DD2018 /* Pods-ATLibrary_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 94537A836309414B5A7B3A7457DA620B /* Pods-ATLibrary_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEB4EBDF7EF48DBD7A87F764639D14D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4599A60EF21B583962056FD9A399529C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24CEF81F624B0D7541336BC2CF71FCAA;
+			remoteInfo = ATLibrary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B0149E436389991E59C36051947DCA5 /* Pods-ATLibrary_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ATLibrary_Tests-dummy.m"; sourceTree = "<group>"; };
+		18D6DE0B199BE389D7E9CB1253C034FF /* ATLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ATLibrary-dummy.m"; sourceTree = "<group>"; };
+		283D7F4003D5202D8633931B2F9464E2 /* Pods_ATLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ATLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		45C75248D994B4F583E1FE724089ADD3 /* ATLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ATLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5596D77E42AFEACC99073D62257AEE30 /* Pods-ATLibrary_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ATLibrary_Tests-resources.sh"; sourceTree = "<group>"; };
+		5885BD97114A5EF1AB2953B731BFC5F7 /* ATLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ATLibrary-prefix.pch"; sourceTree = "<group>"; };
+		71416BACD1D853B57DAAB4042D7C981D /* ATLibrary.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ATLibrary.xcconfig; sourceTree = "<group>"; };
+		8666701F8AFBB2C182E3B919EBCA2A1E /* ATLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ATLibrary-umbrella.h"; sourceTree = "<group>"; };
+		8D6AE2110AC2929677E755ADD8C9B4DA /* Pods-ATLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ATLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		94537A836309414B5A7B3A7457DA620B /* Pods-ATLibrary_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ATLibrary_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A2B511174D53408BFE6E1CEDEA903BDB /* ATLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ATLibrary.modulemap; sourceTree = "<group>"; };
+		A3CB884C1D7822F600D767D3 /* ATColorLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATColorLog.h; sourceTree = "<group>"; };
+		A3CB884D1D7822F600D767D3 /* ATDeviceUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATDeviceUtil.h; sourceTree = "<group>"; };
+		A3CB884E1D7822F600D767D3 /* ATDeviceUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATDeviceUtil.m; sourceTree = "<group>"; };
+		A3CB884F1D7822F600D767D3 /* ATHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATHeader.h; sourceTree = "<group>"; };
+		A3CB88501D7822F600D767D3 /* DeviceName.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DeviceName.plist; sourceTree = "<group>"; };
+		A3CB88511D7822F600D767D3 /* NSData+AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES.h"; sourceTree = "<group>"; };
+		A3CB88521D7822F600D767D3 /* NSData+AES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES.m"; sourceTree = "<group>"; };
+		A3CB88531D7822F600D767D3 /* NSString+AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AES.h"; sourceTree = "<group>"; };
+		A3CB88541D7822F600D767D3 /* NSString+AES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AES.m"; sourceTree = "<group>"; };
+		A3CB88551D7822F600D767D3 /* NSString+AT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AT.h"; sourceTree = "<group>"; };
+		A3CB88561D7822F600D767D3 /* NSString+AT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AT.m"; sourceTree = "<group>"; };
+		A3CB88571D7822F600D767D3 /* UIImage+AT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AT.h"; sourceTree = "<group>"; };
+		A3CB88581D7822F600D767D3 /* UIImage+AT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+AT.m"; sourceTree = "<group>"; };
+		A3CB88591D7822F600D767D3 /* UIImageView+AT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AT.h"; sourceTree = "<group>"; };
+		A3CB885A1D7822F600D767D3 /* UIImageView+AT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AT.m"; sourceTree = "<group>"; };
+		A3CB885B1D7822F600D767D3 /* UITextField+AT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+AT.h"; sourceTree = "<group>"; };
+		A3CB885C1D7822F600D767D3 /* UITextField+AT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+AT.m"; sourceTree = "<group>"; };
+		A3CB885D1D7822F600D767D3 /* UIView+AT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AT.h"; sourceTree = "<group>"; };
+		A3CB885E1D7822F600D767D3 /* UIView+AT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AT.m"; sourceTree = "<group>"; };
+		A3CB885F1D7822F600D767D3 /* UIViewController+AT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AT.h"; sourceTree = "<group>"; };
+		A3CB88601D7822F600D767D3 /* UIViewController+AT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AT.m"; sourceTree = "<group>"; };
+		A73A214A4E8B2453B766EC5F0E0585BF /* Pods-ATLibrary_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ATLibrary_Tests.modulemap"; sourceTree = "<group>"; };
+		A887961584AE8B0FCB11B0B80CCDA776 /* Pods-ATLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ATLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		AB87F0B4B7F2C8B6075DE3BEF9EF0FF8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C0EC937739904B369E600600FE4F6121 /* Pods-ATLibrary_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ATLibrary_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CCAE09A658FDDEDB3B6304F34A5FC46B /* Pods-ATLibrary_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ATLibrary_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DEF28E4015E1CD1B2E87F61869C9A19F /* Pods-ATLibrary_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ATLibrary_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		E112A17E431E5934542893BCBEB65476 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		632D08E3CA944447C9B9F4EDE7D3D0CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEB4EBDF7EF48DBD7A87F764639D14D6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B71A9ABD175E49E573E475DAFEE316E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				955ECE27D11C69F14C23990078B08ABC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		073EF10C8B1B6C7AC6AC0DC1C71BF177 /* ATLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				A11C06000A33A3BB130F84111AACFA7D /* ATLibrary */,
+				2447D5F6A0AA020869C6F496750DEB7C /* Support Files */,
+			);
+			name = ATLibrary;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		21E496C7F7970CC1FEDF89B41EF74260 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45C75248D994B4F583E1FE724089ADD3 /* ATLibrary.framework */,
+				283D7F4003D5202D8633931B2F9464E2 /* Pods_ATLibrary_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2447D5F6A0AA020869C6F496750DEB7C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2B511174D53408BFE6E1CEDEA903BDB /* ATLibrary.modulemap */,
+				71416BACD1D853B57DAAB4042D7C981D /* ATLibrary.xcconfig */,
+				18D6DE0B199BE389D7E9CB1253C034FF /* ATLibrary-dummy.m */,
+				5885BD97114A5EF1AB2953B731BFC5F7 /* ATLibrary-prefix.pch */,
+				8666701F8AFBB2C182E3B919EBCA2A1E /* ATLibrary-umbrella.h */,
+				AB87F0B4B7F2C8B6075DE3BEF9EF0FF8 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ATLibrary";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				81CA8A2C2B38253C60B3E2DD723E1270 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				21E496C7F7970CC1FEDF89B41EF74260 /* Products */,
+				95E9CDC400A919B785CC093656C7C3A8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		81CA8A2C2B38253C60B3E2DD723E1270 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				073EF10C8B1B6C7AC6AC0DC1C71BF177 /* ATLibrary */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		95E9CDC400A919B785CC093656C7C3A8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7082A8C721D4862FA7D326B748F47E8 /* Pods-ATLibrary_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A11C06000A33A3BB130F84111AACFA7D /* ATLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				DB057C87876006F6CD19F85516D48487 /* Classes */,
+			);
+			path = ATLibrary;
+			sourceTree = "<group>";
+		};
+		A3DBE9521D782ABB006F6E14 /* AES */ = {
+			isa = PBXGroup;
+			children = (
+				A3CB88511D7822F600D767D3 /* NSData+AES.h */,
+				A3CB88521D7822F600D767D3 /* NSData+AES.m */,
+				A3CB88531D7822F600D767D3 /* NSString+AES.h */,
+				A3CB88541D7822F600D767D3 /* NSString+AES.m */,
+			);
+			name = AES;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DB057C87876006F6CD19F85516D48487 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A3DBE9521D782ABB006F6E14 /* AES */,
+				A3CB884C1D7822F600D767D3 /* ATColorLog.h */,
+				A3CB884D1D7822F600D767D3 /* ATDeviceUtil.h */,
+				A3CB884E1D7822F600D767D3 /* ATDeviceUtil.m */,
+				A3CB884F1D7822F600D767D3 /* ATHeader.h */,
+				A3CB88501D7822F600D767D3 /* DeviceName.plist */,
+				A3CB88551D7822F600D767D3 /* NSString+AT.h */,
+				A3CB88561D7822F600D767D3 /* NSString+AT.m */,
+				A3CB88571D7822F600D767D3 /* UIImage+AT.h */,
+				A3CB88581D7822F600D767D3 /* UIImage+AT.m */,
+				A3CB88591D7822F600D767D3 /* UIImageView+AT.h */,
+				A3CB885A1D7822F600D767D3 /* UIImageView+AT.m */,
+				A3CB885B1D7822F600D767D3 /* UITextField+AT.h */,
+				A3CB885C1D7822F600D767D3 /* UITextField+AT.m */,
+				A3CB885D1D7822F600D767D3 /* UIView+AT.h */,
+				A3CB885E1D7822F600D767D3 /* UIView+AT.m */,
+				A3CB885F1D7822F600D767D3 /* UIViewController+AT.h */,
+				A3CB88601D7822F600D767D3 /* UIViewController+AT.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E7082A8C721D4862FA7D326B748F47E8 /* Pods-ATLibrary_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E112A17E431E5934542893BCBEB65476 /* Info.plist */,
+				A73A214A4E8B2453B766EC5F0E0585BF /* Pods-ATLibrary_Tests.modulemap */,
+				CCAE09A658FDDEDB3B6304F34A5FC46B /* Pods-ATLibrary_Tests-acknowledgements.markdown */,
+				C0EC937739904B369E600600FE4F6121 /* Pods-ATLibrary_Tests-acknowledgements.plist */,
+				0B0149E436389991E59C36051947DCA5 /* Pods-ATLibrary_Tests-dummy.m */,
+				DEF28E4015E1CD1B2E87F61869C9A19F /* Pods-ATLibrary_Tests-frameworks.sh */,
+				5596D77E42AFEACC99073D62257AEE30 /* Pods-ATLibrary_Tests-resources.sh */,
+				94537A836309414B5A7B3A7457DA620B /* Pods-ATLibrary_Tests-umbrella.h */,
+				8D6AE2110AC2929677E755ADD8C9B4DA /* Pods-ATLibrary_Tests.debug.xcconfig */,
+				A887961584AE8B0FCB11B0B80CCDA776 /* Pods-ATLibrary_Tests.release.xcconfig */,
+			);
+			name = "Pods-ATLibrary_Tests";
+			path = "Target Support Files/Pods-ATLibrary_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		39F421DF281A85F0D6C6D5F57DE4D2EE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3CB88691D7822F600D767D3 /* NSString+AT.h in Headers */,
+				A3CB88671D7822F600D767D3 /* NSString+AES.h in Headers */,
+				A3CB88651D7822F600D767D3 /* NSData+AES.h in Headers */,
+				A3CB886B1D7822F600D767D3 /* UIImage+AT.h in Headers */,
+				A3CB88621D7822F600D767D3 /* ATDeviceUtil.h in Headers */,
+				A3CB886F1D7822F600D767D3 /* UITextField+AT.h in Headers */,
+				A3CB886D1D7822F600D767D3 /* UIImageView+AT.h in Headers */,
+				A3CB88611D7822F600D767D3 /* ATColorLog.h in Headers */,
+				A3CB88731D7822F600D767D3 /* UIViewController+AT.h in Headers */,
+				A3CB88641D7822F600D767D3 /* ATHeader.h in Headers */,
+				BA6443B722D2C9518CD96A5D58FD0EEE /* ATLibrary-umbrella.h in Headers */,
+				A3CB88711D7822F600D767D3 /* UIView+AT.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F5AFCAC155991A6937A31BB755EEA41 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8ADED0A10CFE4DAAE77BBF38DD2018 /* Pods-ATLibrary_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		24CEF81F624B0D7541336BC2CF71FCAA /* ATLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BAF4AF333F287E3A7B2950A3BDBACF0 /* Build configuration list for PBXNativeTarget "ATLibrary" */;
+			buildPhases = (
+				489DF17FBF7A24FA331C79D5B47707C0 /* Sources */,
+				632D08E3CA944447C9B9F4EDE7D3D0CB /* Frameworks */,
+				39F421DF281A85F0D6C6D5F57DE4D2EE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ATLibrary;
+			productName = ATLibrary;
+			productReference = 45C75248D994B4F583E1FE724089ADD3 /* ATLibrary.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5B3F172C4843A69C077BF5E28F7D4717 /* Pods-ATLibrary_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5D79293A953C74371FDF6B804E4BB50 /* Build configuration list for PBXNativeTarget "Pods-ATLibrary_Tests" */;
+			buildPhases = (
+				B7A1E1721AF8B07F33D941B6169014FE /* Sources */,
+				7B71A9ABD175E49E573E475DAFEE316E /* Frameworks */,
+				8F5AFCAC155991A6937A31BB755EEA41 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				974EED8DAF1B1FB4DD0AACD50922EF15 /* PBXTargetDependency */,
+			);
+			name = "Pods-ATLibrary_Tests";
+			productName = "Pods-ATLibrary_Tests";
+			productReference = 283D7F4003D5202D8633931B2F9464E2 /* Pods_ATLibrary_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 21E496C7F7970CC1FEDF89B41EF74260 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24CEF81F624B0D7541336BC2CF71FCAA /* ATLibrary */,
+				5B3F172C4843A69C077BF5E28F7D4717 /* Pods-ATLibrary_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		489DF17FBF7A24FA331C79D5B47707C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3CB886C1D7822F600D767D3 /* UIImage+AT.m in Sources */,
+				A3CB88741D7822F600D767D3 /* UIViewController+AT.m in Sources */,
+				A3CB88631D7822F600D767D3 /* ATDeviceUtil.m in Sources */,
+				A3CB88701D7822F600D767D3 /* UITextField+AT.m in Sources */,
+				A3CB88681D7822F600D767D3 /* NSString+AES.m in Sources */,
+				A3CB88721D7822F600D767D3 /* UIView+AT.m in Sources */,
+				01DFC861363C91E8C67317C578E6882F /* ATLibrary-dummy.m in Sources */,
+				A3CB886A1D7822F600D767D3 /* NSString+AT.m in Sources */,
+				A3CB88661D7822F600D767D3 /* NSData+AES.m in Sources */,
+				A3CB886E1D7822F600D767D3 /* UIImageView+AT.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7A1E1721AF8B07F33D941B6169014FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D04E939C72EA9190F19E3A2F306E498 /* Pods-ATLibrary_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		974EED8DAF1B1FB4DD0AACD50922EF15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ATLibrary;
+			target = 24CEF81F624B0D7541336BC2CF71FCAA /* ATLibrary */;
+			targetProxy = 4599A60EF21B583962056FD9A399529C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32E66282FD225F3CD98719415A1D1683 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71416BACD1D853B57DAAB4042D7C981D /* ATLibrary.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ATLibrary/ATLibrary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ATLibrary/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ATLibrary/ATLibrary.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ATLibrary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4927ADA8F3573D5A49409CBF305C781E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D6AE2110AC2929677E755ADD8C9B4DA /* Pods-ATLibrary_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ATLibrary_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ATLibrary_Tests/Pods-ATLibrary_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ATLibrary_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9470FD78D212FE25E9BD8D66C6E78E9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71416BACD1D853B57DAAB4042D7C981D /* ATLibrary.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ATLibrary/ATLibrary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ATLibrary/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ATLibrary/ATLibrary.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ATLibrary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A88610B3F29BEAA28751FCC61C1B24B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A887961584AE8B0FCB11B0B80CCDA776 /* Pods-ATLibrary_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ATLibrary_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ATLibrary_Tests/Pods-ATLibrary_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ATLibrary_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BAF4AF333F287E3A7B2950A3BDBACF0 /* Build configuration list for PBXNativeTarget "ATLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9470FD78D212FE25E9BD8D66C6E78E9F /* Debug */,
+				32E66282FD225F3CD98719415A1D1683 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5D79293A953C74371FDF6B804E4BB50 /* Build configuration list for PBXNativeTarget "Pods-ATLibrary_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4927ADA8F3573D5A49409CBF305C781E /* Debug */,
+				A88610B3F29BEAA28751FCC61C1B24B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

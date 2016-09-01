@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ATLibrary'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of ATLibrary.'
+  s.version          = '0.1.2'
+  s.summary          = 'ATLibrary is a categories of UIKit, Foundation  and ulti tool'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: ATLibrary is a categories of UIKit, Foundation  and ulti tool
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/ATLibrary'
+  s.homepage         = 'https://github.com/wipal194/ATLibrary'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Âu Ngọc Thái' => 'ngocthai194@gmail.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/ATLibrary.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/wipal194/ATLibrary.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

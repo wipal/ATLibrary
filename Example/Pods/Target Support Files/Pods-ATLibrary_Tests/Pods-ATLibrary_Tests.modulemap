@@ -1,0 +1,6 @@
+framework module Pods_ATLibrary_Tests {
+  umbrella header "Pods-ATLibrary_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

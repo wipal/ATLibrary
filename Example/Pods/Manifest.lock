@@ -1,0 +1,14 @@
+PODS:
+  - ATLibrary (0.1.0)
+
+DEPENDENCIES:
+  - ATLibrary (from `../`)
+
+EXTERNAL SOURCES:
+  ATLibrary:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ATLibrary: 2735d3270eb8fe519bac1ba4fe62380a5a064c03
+
+COCOAPODS: 0.39.0
